@@ -694,11 +694,21 @@ teste.somatorio_tokens()
 print('\nLista de tokens reconhecidos:')
 teste.tokens_reconhecidos()
 
+caminho = 'arquivos/ex3.cic'
+teste = Lexema(caminho)
+teste.add_tokens()
+print('_______________________________________________________________________________________________________________________\n')
+print('EXEMPLO 3(arquivo original)')
+print('Somatório de tokens reconhecimentos:')
+teste.somatorio_tokens()
+print('\nLista de tokens reconhecidos:')
+teste.tokens_reconhecidos()
+
 caminho = 'arquivos/ex4.cic'
 teste = Lexema(caminho)
 teste.add_tokens()
 print('_______________________________________________________________________________________________________________________\n')
-print('EXEMPLO 3')
+print('EXEMPLO 3(arquivo sem aspas triplas)')
 print('Somatório de tokens reconhecimentos:')
 teste.somatorio_tokens()
 print('\nLista de tokens reconhecidos:')
